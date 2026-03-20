@@ -1,13 +1,29 @@
+html,body{
+    height: 100%;
+}
 body{
-        background:#eac4f7;  
+        background:#ffffff url(../Image/FONDO.jpg)no-repeat;
+        background-size:cover;
 }
 h1{
-    color:rgb(80, 31, 94);
+    color:rgb(116, 143, 152);
     text-decoration:underline;
     font-family:cursive
 
 }
 .titulo{
-    letter-spacing: 10px;
+    letter-spacing: 4px;
     font-family: sans-serif;
+    color:rgb(116, 143, 152);
+}
+.titulo2 {
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    color:rgb(116, 143, 152);
+}
+.foto img{
+    width: 400px;
+    box-shadow: 30px 30px 30px rgb(5, 23, 23);
+    border-radius:5px;
+    transform: rotate(-5deg);
 }
