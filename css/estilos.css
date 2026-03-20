@@ -1,4 +1,13 @@
 body{
-        background:#c2bcff;  
-    font-size: 80px;
+        background:#eac4f7;  
+}
+h1{
+    color:rgb(80, 31, 94);
+    text-decoration:underline;
+    font-family:cursive
+
+}
+.titulo{
+    letter-spacing: 10px;
+    font-family: sans-serif;
 }
