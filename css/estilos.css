@@ -3,6 +3,7 @@ html,body{
 }
 body{
         background:#ffffff url(../Image/FONDO.jpg)no-repeat;
+        background-attachment: fixed;
         background-size:cover;
 }
 h1{
@@ -26,4 +27,13 @@ h1{
     box-shadow: 30px 30px 30px rgb(5, 23, 23);
     border-radius:5px;
     transform: rotate(-5deg);
+}
+#textounico{
+    background-color:rgb(116, 143, 152, 0.5);
+    column-count:2;
+    column-rule: solid 2px black ;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: justify;
+    width: 60%;
 }
